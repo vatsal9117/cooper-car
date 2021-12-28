@@ -1,0 +1,23 @@
+body::before {
+    content: '';    
+    height: 40px;
+     
+}
+.map-container{
+    overflow:hidden;
+    position:relative;
+    height:0;
+    border-radius: 10px;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    position:absolute;
+    }
+@media(min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+}
